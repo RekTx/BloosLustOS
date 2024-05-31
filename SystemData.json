@@ -1,0 +1,13 @@
+{
+    "Allocated": {
+        "Cores": 0,
+        "Disk": 0,
+        "Memory": 0
+    },
+    "Opacity": 1,
+    "Resources": {
+        "Cores": 8,
+        "Disk": 256,
+        "Memory": 2000
+    }
+}

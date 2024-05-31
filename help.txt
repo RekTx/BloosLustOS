@@ -1,0 +1,13 @@
+g++ -o Bloodlust Bloodlust.cpp -lraylib -ljsoncpp
+g++ Bloodlust.cpp -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+
+g++ -o TaskManager TaskManager.cpp -ljsoncpp -lraylib
+
+std::ifstream i("SystemData.json");
+    json j;
+    i >> j;
+
+    j["Resources"]["Cores"] = 4;
+
+    std::ofstream o("SystemData.json");
+    o << std::setw(4) << j << std::endl
