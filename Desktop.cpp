@@ -124,7 +124,7 @@ int main(int argc, char* argv[]) {
     ImageResize(&userPfp, 40, 40);
     Texture2D userPfpTexture = LoadTextureFromImage(userPfp);
 
-    if (username == "Maam") {
+    if (username == "Admin") {
         std::ifstream i("settings.json");
         json j;
         i >> j;
