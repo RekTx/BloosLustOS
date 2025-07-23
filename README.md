@@ -1,2 +1,2 @@
 # BloosLustOS
-My Operating System Final Project
+A simple C++ emulation of Operating System
